@@ -10,13 +10,14 @@
     "strapi": "strapi",
     "postinstall": "cd plugins/wysiwyg && npm i"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-graphql": "^4.5.5",
     "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/plugin-users-permissions": "^4.9.2",
     "@strapi/provider-upload-cloudinary": "^4.1.12",
-    "@strapi/strapi": "4.5.5",
+    "@strapi/strapi": "^4.9.2",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.0.0",
     "pg": "8.6.0"
   },
   "author": {
